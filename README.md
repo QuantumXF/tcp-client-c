@@ -35,6 +35,7 @@ This program:
    sock.sin_addr.s_addr = inet_addr(IP);
 
 . Converts the given IP and port into a format the system can use for connections.
+
 3. **CONNECTION**
 
    connect(s, (struct sockaddr *)&sock, sizeof(struct sockaddr_in));
@@ -119,6 +120,7 @@ This project is licensed under the MIT License — feel free to use, modify, and
 
 # Author
 Name  - AKASH VISHWAKARMA
+
 Gmail - akashdevil82@gmail.com
 
 Date  - 17 October 2025
